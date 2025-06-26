@@ -35,7 +35,7 @@ module.exports = {
         {
             matchHost: "https://maven.pkg.github.com",
             hostType: "maven",
-            token: process.env.GPR_TOKEN
+            token: process.env.RENOVATE_GPR_TOKEN
         }
     ],
     ignoreDeps: []
