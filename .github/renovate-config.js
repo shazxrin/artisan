@@ -33,9 +33,21 @@ module.exports = {
     ],
     hostRules: [
         {
-            matchHost: "https://maven.pkg.github.com",
+            matchHost: "maven.pkg.github.com",
             hostType: "maven",
             token: process.env.RENOVATE_GPR_TOKEN
+        },
+        {
+            matchHost: "ghcr.io",
+            hostType: "docker",
+            username: "shazxrin",
+            password: process.env.RENOVATE_GHCR_TOKEN
+        },
+        {
+            matchHost: "ghcr.io",
+            hostType: "helm",
+            username: "shazxrin",
+            password: process.env.RENOVATE_GHCR_TOKEN
         }
     ],
     ignoreDeps: []
