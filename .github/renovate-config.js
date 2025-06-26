@@ -1,4 +1,4 @@
-modules.exports = {
+module.exports = {
     repositories: [
         "shazxrin/notifier",
         "shazxrin/one-percent-better"
