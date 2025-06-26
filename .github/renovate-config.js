@@ -33,6 +33,11 @@ module.exports = {
     ],
     hostRules: [
         {
+            matchHost: "api.github.com",
+            hostType: "github",
+            token: process.env.RENOVATE_GHCR_TOKEN
+        },
+        {
             matchHost: "maven.pkg.github.com",
             hostType: "maven",
             token: process.env.RENOVATE_GPR_TOKEN
