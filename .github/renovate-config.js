@@ -1,5 +1,6 @@
 module.exports = {
     repositories: [
+        "shazxrin/cluster",
         "shazxrin/notifier",
         "shazxrin/one-percent-better"
     ],
@@ -27,6 +28,18 @@ module.exports = {
         {
             matchManagers: [
                 "github-actions"
+            ],
+            enabled: true
+        },
+        {
+            matchManagers: [
+                "argocd"
+            ],
+            enabled: true
+        },
+        {
+            matchManagers: [
+                "kubernetes"
             ],
             enabled: true
         }
