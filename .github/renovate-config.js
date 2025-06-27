@@ -48,7 +48,7 @@ module.exports = {
         {
             matchHost: "api.github.com",
             hostType: "github",
-            token: process.env.RENOVATE_GHCR_TOKEN
+            token: process.env.RENOVATE_GPR_TOKEN
         },
         {
             matchHost: "maven.pkg.github.com",
@@ -59,13 +59,13 @@ module.exports = {
             matchHost: "ghcr.io",
             hostType: "docker",
             username: "shazxrin",
-            password: process.env.RENOVATE_GHCR_TOKEN
+            password: process.env.RENOVATE_GPR_TOKEN
         },
         {
             matchHost: "ghcr.io",
             hostType: "helm",
             username: "shazxrin",
-            password: process.env.RENOVATE_GHCR_TOKEN
+            password: process.env.RENOVATE_GPR_TOKEN
         }
     ],
     ignoreDeps: []
