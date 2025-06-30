@@ -11,7 +11,7 @@ module.exports = {
     labels: [
         "dependencies"
     ],
-    automerge: false,
+    automerge: true,
     packageRules: [
         {
             matchManagers: [
