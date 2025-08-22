@@ -14,6 +14,8 @@ A collection of personal mini applications that work together to improve my qual
 	- Personal notification system
 - 📈 [One Percent Better](https://github.com/shazxrin/one-percent-better)
 	- Personal GitHub commit tracker and habit tracker application
+- 🔀 [Workflows](https://github.com/shazxrin/workflows)
+    - Shared actions and workflows for GitHub Actions to be used by repositories
 
 ## Tech Stack
 
